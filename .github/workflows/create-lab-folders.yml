@@ -1,0 +1,103 @@
+name: Create Lab Folders and Files
+
+on:
+  workflow_dispatch:  # Manual trigger from GitHub website
+
+jobs:
+  create-folders:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Create Folders and Files
+      run: |
+        topics=(
+          "Introduction-to-Networking"
+          "Interfaces-and-Cables"
+          "OSI-Model-and-TCPIP-Suite"
+          "Introduction-to-the-CLI-Command-Line-Interface"
+          "Ethernet-LAN-Switching-Part-1"
+          "Ethernet-LAN-Switching-Part-2"
+          "IPv4-Addressing-Part-1"
+          "IPv4-Addressing-Part-2"
+          "Switch-Interfaces"
+          "IPv4-Headers"
+          "Routing-Fundamentals-Part-1-and-2"
+          "Lifecycle-of-a-Packet"
+          "Subnetting-Part-1"
+          "Subnetting-Part-2"
+          "Subnetting-Part-3"
+          "VLANs-Virtual-LANs-Part-1"
+          "VLANs-Part-2"
+          "VLANs-Part-3"
+          "DTP-VTP"
+          "Spanning-Tree-Protocol-STP-Fundamentals-Part-1"
+          "Spanning-Tree-Variants-and-Enhancements-Part-2-to-7"
+          "Rapid-Spanning-Tree-Protocol"
+          "EtherChannel"
+          "Routing"
+          "RIP-and-EIGRP"
+          "OSPF-Part-1"
+          "OSPF-Part-2"
+          "OSPF-Part-3"
+          "First-Hop-Redundancy-Protocols-FHRP"
+          "TCP-and-UDP"
+          "IPv6-Part-1"
+          "IPv6-Part-2"
+          "IPv6-Part-3"
+          "Standard-ACLs-Access-Control-Lists"
+          "Extended-ACLs"
+          "CDP-and-LLDP-Cisco-Discovery-Protocol-and-Link-Layer-Discovery-Protocol"
+          "NTP-Network-Time-Protocol"
+          "DNS-Domain-Name-System"
+          "DHCP-Dynamic-Host-Configuration-Protocol"
+          "SNMP-Simple-Network-Management-Protocol"
+          "Syslog"
+          "SSH-Secure-Shell"
+          "FTP-and-TFTP-File-Transfer-Protocols"
+          "NAT-Static-NAT"
+          "Dynamic-NAT"
+          "QoS-Voice-VLANs"
+          "QoS-Part-2"
+          "Security-Fundamentals-Kali-Linux-Demonstrations"
+          "Post-Security-Topics"
+          "DHCP-Snooping"
+          "Dynamic-ARP-Inspection"
+          "STP-and-FHRP-Synchronization"
+          "GRE-Tunnels"
+          "Oracle-VirtualBox"
+          "Stateless-Fundamentals"
+          "CaaS-and-SaaS-Architectures"
+          "Core-Wireless-Security"
+          "Core-Wireless-Configuration-WLANs"
+          "Network-Automation-Part-1-and-2"
+          "REST-API-Authentication"
+          "Software-Defined-Networking-SDN"
+          "Ansible-Puppet-and-Chef"
+          "Terraform-Part-1-and-2"
+        )
+
+        mkdir -p lab-guides
+
+        for idx in "${!topics[@]}"; do
+          num=$(printf "%02d" $((idx+1)))
+          name="${topics[$idx]}"
+          folder="lab-guides/${num}-${name}"
+
+          mkdir -p "$folder/packet-tracer-files"
+          mkdir -p "$folder/images"
+
+          echo "# Day $((idx+1)) - ${name//-/ }" > "$folder/lab-guide.md"
+          echo "Packet tracer files for Day $((idx+1))" > "$folder/packet-tracer-files/day-${num}-network-setup.pkt"
+          echo "Network topology for Day $((idx+1))" > "$folder/images/network-topology.png"
+        done
+
+    - name: Commit and Push Changes
+      run: |
+        git config --global user.name "GitHub Actions"
+        git config --global user.email "actions@github.com"
+        git add .
+        git commit -m "Auto-create Day 1-63 folders with structure"
+        git push
