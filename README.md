@@ -33,7 +33,7 @@ Each lab folder includes:
 | 19  | DTP (Dynamic Trunking Protocol) / VTP (VLAN Trunking Protocol) | [#](#) |
 | 20  | Spanning Tree Protocol (STP) Fundamentals (Part 1)          | [#](#) |
 | 21  | Spanning Tree Protocol (STP) Variants & Enhancements (Part 2 to Part 7) | [#](#) |
-| 22  |                                                            | [#](#) |
+| 22  | Rapid Spanning Tree Protocol                               | [#](#) |
 | 23  |                                                            | [#](#) |
 | 24  |                                                            | [#](#) |
 | 25  |                                                            | [#](#) |
