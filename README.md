@@ -111,5 +111,5 @@ These are the primary materials and tools I'm using to prepare for the CCNA exam
 ## 📬 Contact
 
 Feel free to connect or drop feedback via:
-- 🔗 [LinkedIn](https://www.linkedin.com/in/yourprofile/)
-- 💬 [Medium](https://medium.com/@yourusername)
+- 🔗 [LinkedIn](www.linkedin.com/in/iamnaushad)
+- 💬 [Medium](https://medium.com/@iamnaushad)
