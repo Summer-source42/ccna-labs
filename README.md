@@ -10,71 +10,73 @@ Each lab folder includes:
 
 # 📚 Lab Index
 
-| Day | Topic                                                      | Medium Link |
-|---- |----------------------------------------------------------- |-------------|
-| 01  | Introduction to Networking                                 | [#](#) |
-| 02  | Interfaces and Cables                                       | [#](#) |
-| 03  | OSI Model and TCP/IP Suite                                  | [#](#) |
-| 04  | Introduction to the CLI (Command Line Interface)            | [#](#) |
-| 05  | Ethernet LAN Switching (Part 1)                             | [#](#) |
-| 06  | Ethernet LAN Switching (Part 2)                             | [#](#) |
-| 07  | IPv4 Addressing (Part 1)                                     | [#](#) |
-| 08  | IPv4 Addressing (Part 2)                                     | [#](#) |
-| 09  | Switch Interfaces                                           | [#](#) |
-| 10  | IPv4 Headers                                                | [#](#) |
-| 11  | Routing Fundamentals (Part 1 & 2)                           | [#](#) |
-| 12  | Lifecycle of a Packet                                       | [#](#) |
-| 13  | Subnetting (Part 1)                                          | [#](#) |
-| 14  | Subnetting (Part 2)                                          | [#](#) |
-| 15  | Subnetting (Part 3)                                          | [#](#) |
-| 16  | VLANs (Virtual LANs) (Part 1)                                | [#](#) |
-| 17  | VLANs (Part 2)                                               | [#](#) |
-| 18  | VLANs (Part 3)                                               | [#](#) |
-| 19  | DTP (Dynamic Trunking Protocol) / VTP (VLAN Trunking Protocol) | [#](#) |
-| 20  | Spanning Tree Protocol (STP) Fundamentals (Part 1)          | [#](#) |
-| 21  | Spanning Tree Protocol (STP) Variants & Enhancements (Part 2 to Part 7) | [#](#) |
-| 22  | Rapid Spanning Tree Protocol                               | [#](#) |
-| 23  |                                                            | [#](#) |
-| 24  |                                                            | [#](#) |
-| 25  |                                                            | [#](#) |
-| 26  |                                                            | [#](#) |
-| 27  |                                                            | [#](#) |
-| 28  |                                                            | [#](#) |
-| 29  |                                                            | [#](#) |
-| 30  |                                                            | [#](#) |
-| 31  |                                                            | [#](#) |
-| 32  |                                                            | [#](#) |
-| 33  |                                                            | [#](#) |
-| 34  |                                                            | [#](#) |
-| 35  |                                                            | [#](#) |
-| 36  |                                                            | [#](#) |
-| 37  |                                                            | [#](#) |
-| 38  |                                                            | [#](#) |
-| 39  |                                                            | [#](#) |
-| 40  |                                                            | [#](#) |
-| 41  |                                                            | [#](#) |
-| 42  |                                                            | [#](#) |
-| 43  |                                                            | [#](#) |
-| 44  |                                                            | [#](#) |
-| 45  |                                                            | [#](#) |
-| 46  |                                                            | [#](#) |
-| 47  |                                                            | [#](#) |
-| 48  |                                                            | [#](#) |
-| 49  |                                                            | [#](#) |
-| 50  |                                                            | [#](#) |
-| 51  |                                                            | [#](#) |
-| 52  |                                                            | [#](#) |
-| 53  |                                                            | [#](#) |
-| 54  |                                                            | [#](#) |
-| 55  |                                                            | [#](#) |
-| 56  |                                                            | [#](#) |
-| 57  |                                                            | [#](#) |
-| 58  |                                                            | [#](#) |
-| 59  |                                                            | [#](#) |
-| 60  |                                                            | [#](#) |
-| 61  |                                                            | [#](#) |
-| 62  |                                                            | [#](#) |
-| 63  |                                                            | [#](#) |
+# 📚 Lab Index
+
+| Day | Topic                                                      | Post |
+|---- |----------------------------------------------------------- |------|
+| 01  | Introduction to Networking                                 | [Medium](#) |
+| 02  | Interfaces and Cables                                       | [Medium](#) |
+| 03  | OSI Model and TCP/IP Suite                                  | [Medium](#) |
+| 04  | Introduction to the CLI (Command Line Interface)            | [Medium](#) |
+| 05  | Ethernet LAN Switching (Part 1)                             | [Medium](#) |
+| 06  | Ethernet LAN Switching (Part 2)                             | [Medium](#) |
+| 07  | IPv4 Addressing (Part 1)                                     | [Medium](#) |
+| 08  | IPv4 Addressing (Part 2)                                     | [Medium](#) |
+| 09  | Switch Interfaces                                           | [Medium](#) |
+| 10  | IPv4 Headers                                                | [Medium](#) |
+| 11  | Routing Fundamentals (Part 1 & 2)                           | [Medium](#) |
+| 12  | Lifecycle of a Packet                                       | [Medium](#) |
+| 13  | Subnetting (Part 1)                                          | [Medium](#) |
+| 14  | Subnetting (Part 2)                                          | [Medium](#) |
+| 15  | Subnetting (Part 3)                                          | [Medium](#) |
+| 16  | VLANs (Virtual LANs) (Part 1)                                | [Medium](#) |
+| 17  | VLANs (Part 2)                                               | [Medium](#) |
+| 18  | VLANs (Part 3)                                               | [Medium](#) |
+| 19  | DTP / VTP                                                   | [Medium](#) |
+| 20  | Spanning Tree Protocol (STP) Fundamentals (Part 1)          | [Medium](#) |
+| 21  | Spanning Tree Variants & Enhancements (Part 2 to 7)          | [Medium](#) |
+| 22  | Rapid Spanning Tree Protocol                                | [Medium](#) |
+| 23  | EtherChannel                                               | [Medium](#) |
+| 24  | Routing                                                    | [Medium](#) |
+| 25  | RIP & EIGRP                                                | [Medium](#) |
+| 26  | OSPF (Part 1)                                               | [Medium](#) |
+| 27  | OSPF (Part 2)                                               | [Medium](#) |
+| 28  | OSPF (Part 3)                                               | [Medium](#) |
+| 29  | First Hop Redundancy Protocols (FHRP)                      | [Medium](#) |
+| 30  | TCP & UDP                                                  | [Medium](#) |
+| 31  | IPv6 (Part 1)                                               | [Medium](#) |
+| 32  | IPv6 (Part 2)                                               | [Medium](#) |
+| 33  | IPv6 (Part 3)                                               | [Medium](#) |
+| 34  | Standard ACLs (Access Control Lists)                       | [Medium](#) |
+| 35  | Extended ACLs                                               | [Medium](#) |
+| 36  | CDP & LLDP (Cisco Discovery Protocol & Link Layer Discovery Protocol) | [Medium](#) |
+| 37  | NTP (Network Time Protocol)                                 | [Medium](#) |
+| 38  | DNS (Domain Name System)                                    | [Medium](#) |
+| 39  | DHCP (Dynamic Host Configuration Protocol)                 | [Medium](#) |
+| 40  | SNMP (Simple Network Management Protocol)                  | [Medium](#) |
+| 41  | Syslog                                                     | [Medium](#) |
+| 42  | SSH (Secure Shell)                                          | [Medium](#) |
+| 43  | FTP & TFTP (File Transfer Protocols)                        | [Medium](#) |
+| 44  | NAT (Static NAT)                                            | [Medium](#) |
+| 45  | Dynamic NAT                                                | [Medium](#) |
+| 46  | QoS (Voice VLANs)                                           | [Medium](#) |
+| 47  | QoS (Part 2)                                                | [Medium](#) |
+| 48  | Security Fundamentals (Kali Linux Demonstrations)          | [Medium](#) |
+| 49  | Post Security Topics                                        | [Medium](#) |
+| 50  | DHCP Snooping                                               | [Medium](#) |
+| 51  |                                                            | [Medium](#) |
+| 52  |                                                            | [Medium](#) |
+| 53  |                                                            | [Medium](#) |
+| 54  |                                                            | [Medium](#) |
+| 55  |                                                            | [Medium](#) |
+| 56  |                                                            | [Medium](#) |
+| 57  |                                                            | [Medium](#) |
+| 58  |                                                            | [Medium](#) |
+| 59  |                                                            | [Medium](#) |
+| 60  |                                                            | [Medium](#) |
+| 61  |                                                            | [Medium](#) |
+| 62  |                                                            | [Medium](#) | 
+| 63  |                                                            | [Medium](#) |  
 
 ---
 
