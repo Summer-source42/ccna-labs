@@ -12,7 +12,7 @@ Each lab folder includes:
 
 | Day | Topic                                                      | Post |
 |---- |----------------------------------------------------------- |------|
-| 01  | Introduction to Networking                                 | [Medium](#) |
+| 01  | Introduction to Networking(https://github.com/Summer-source42/ccna-labs/tree/main/lab-guides/01-Introduction-to-Networking)                                 | [Medium](#) |
 | 02  | Interfaces and Cables                                       | [Medium](#) |
 | 03  | OSI Model and TCP/IP Suite                                  | [Medium](#) |
 | 04  | Introduction to the CLI (Command Line Interface)            | [Medium](#) |
