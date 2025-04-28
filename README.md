@@ -10,8 +10,6 @@ Each lab folder includes:
 
 # 📚 Lab Index
 
-# 📚 Lab Index
-
 | Day | Topic                                                      | Post |
 |---- |----------------------------------------------------------- |------|
 | 01  | Introduction to Networking                                 | [Medium](#) |
@@ -64,19 +62,19 @@ Each lab folder includes:
 | 48  | Security Fundamentals (Kali Linux Demonstrations)          | [Medium](#) |
 | 49  | Post Security Topics                                        | [Medium](#) |
 | 50  | DHCP Snooping                                               | [Medium](#) |
-| 51  |                                                            | [Medium](#) |
-| 52  |                                                            | [Medium](#) |
-| 53  |                                                            | [Medium](#) |
-| 54  |                                                            | [Medium](#) |
-| 55  |                                                            | [Medium](#) |
-| 56  |                                                            | [Medium](#) |
-| 57  |                                                            | [Medium](#) |
-| 58  |                                                            | [Medium](#) |
-| 59  |                                                            | [Medium](#) |
-| 60  |                                                            | [Medium](#) |
-| 61  |                                                            | [Medium](#) |
-| 62  |                                                            | [Medium](#) | 
-| 63  |                                                            | [Medium](#) |  
+| 51  | Dynamic ARP Inspection                                      | [Medium](#) |
+| 52  | STP & FHRP Synchronization                                  | [Medium](#) |
+| 53  | GRE Tunnels                                                 | [Medium](#) |
+| 54  | Oracle VirtualBox                                           | [Medium](#) |
+| 55  | Stateless Fundamentals                                      | [Medium](#) |
+| 56  | CaaS and SaaS Architectures                                 | [Medium](#) |
+| 57  | Core Wireless Security                                      | [Medium](#) |
+| 58  | Core Wireless Configuration / WLANs                        | [Medium](#) |
+| 59  | Network Automation (Part 1 & 2)                             | [Medium](#) |
+| 60  | REST API Authentication                                     | [Medium](#) |
+| 61  | Software-Defined Networking (SDN)                           | [Medium](#) |
+| 62  | Ansible, Puppet & Chef                                      | [Medium](#) |
+| 63  | Terraform (Part 1 & 2)                                      | [Medium](#) | 
 
 ---
 
